@@ -7,6 +7,8 @@ cask "nxbrowser" do
   desc "Keyboard-first web browser with tiling, extensions and a built-in terminal"
   homepage "https://github.com/abeldzan/nx-browser"
 
+  # The app updates itself from GitHub releases; `brew upgrade` leaves it alone unless run with --greedy.
+  auto_updates true
   depends_on arch: :arm64
   depends_on macos: :sonoma
 

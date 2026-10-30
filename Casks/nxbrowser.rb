@@ -1,6 +1,6 @@
 cask "nxbrowser" do
-  version "0.1.8"
-  sha256 "1130d941d327e785224b4fce1689b5a813f34a148824a19c75d4bd65fd974b77"
+  version "0.1.9"
+  sha256 "aac710ef6d106605aeafc3db0ff2fb608bc7de6a91f89c52783ccbb57b9b468f"
 
   url "https://github.com/abeldzan/nx-browser/releases/download/v#{version}/NxBrowser.dmg"
   name "NxBrowser"
